@@ -1,0 +1,21 @@
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы редакторов и сред разработки
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Python / локальные среды (если будут скрипты на FastAPI / Flask)
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Логи и отчеты тестирования (Postman, Newman)
+*.log
+reports/
+newman/
